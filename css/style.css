@@ -1,0 +1,390 @@
+h2,
+h3,
+h4,
+a,
+span,
+button,
+input {
+  font-family: "Noto Sans TC", sans-serif; }
+
+ul {
+  list-style: none;
+  padding: 0 0 0 3%; }
+
+a {
+  text-decoration: none; }
+
+.dressingRoom {
+  background-image: linear-gradient(0deg, #ccd7d9 26%, #ead2c6 25%);
+  height: 100vh;
+  display: flex; }
+  .dressingRoom img {
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle; }
+  .dressingRoom h3 {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 3px solid #fa7979;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #666;
+    background-color: #e6e6e6; }
+  .dressingRoom .paintArea {
+    width: 23%;
+    padding-top: 10%; }
+    .dressingRoom .paintArea .customize {
+      text-align: center; }
+      .dressingRoom .paintArea .customize .paintShirt {
+        width: 100%;
+        height: 55.26316%;
+        position: relative; }
+        .dressingRoom .paintArea .customize .paintShirt .startCreate {
+          width: 50%;
+          height: 70%;
+          padding: 10% 25%;
+          position: relative;
+          z-index: 10; }
+          .dressingRoom .paintArea .customize .paintShirt .startCreate img {
+            cursor: pointer; }
+          .dressingRoom .paintArea .customize .paintShirt .startCreate a {
+            display: inline-block;
+            padding: 5px 10px;
+            border: 3px solid #f6f6f6;
+            border-radius: 20px;
+            color: #fff;
+            background-color: #fa7979;
+            position: relative;
+            top: -3px;
+            left: -3px;
+            box-shadow: 3px 3px #e7867e;
+            transition: 0.3s;
+            margin-top: 20px; }
+            .dressingRoom .paintArea .customize .paintShirt .startCreate a:hover {
+              top: 0;
+              left: 0;
+              box-shadow: 0 0 transparent; }
+        .dressingRoom .paintArea .customize .paintShirt .sprayBg {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          z-index: 1; }
+    .dressingRoom .paintArea .paint {
+      padding: 20% 0 0 5%;
+      width: 50%; }
+  .dressingRoom .squidArea {
+    width: 25%;
+    padding: 20% 5% 0 5%;
+    box-sizing: border-box; }
+    .dressingRoom .squidArea .dressingZone {
+      position: relative; }
+      .dressingRoom .squidArea .dressingZone img {
+        position: relative;
+        z-index: 10; }
+      .dressingRoom .squidArea .dressingZone .changedHat {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 60%;
+        top: -20%; }
+      .dressingRoom .squidArea .dressingZone .changedClo {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 61%;
+        width: 68.7%; }
+      .dressingRoom .squidArea .dressingZone .changedShoes {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 100%;
+        bottom: -5%;
+        z-index: 1; }
+  .dressingRoom .clothesArea {
+    width: 52%;
+    padding-top: 3%; }
+    .dressingRoom .clothesArea .wardrobe {
+      height: 100%;
+      text-align: center; }
+      .dressingRoom .clothesArea .wardrobe .top {
+        width: 100%;
+        height: 4%;
+        background-color: #f8b797; }
+      .dressingRoom .clothesArea .wardrobe .storages {
+        width: 97%;
+        height: 80%;
+        margin-left: 3%;
+        padding: 3% 4%;
+        box-sizing: border-box;
+        background-color: #f5e2b7;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-between; }
+        .dressingRoom .clothesArea .wardrobe .storages .storage {
+          width: 100%;
+          height: 25%;
+          padding: 0 7%;
+          box-sizing: border-box;
+          background-color: #ec8a63;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          position: relative; }
+          .dressingRoom .clothesArea .wardrobe .storages .storage .owl-carousel {
+            position: static; }
+            .dressingRoom .clothesArea .wardrobe .storages .storage .owl-carousel .owl-item {
+              display: flex;
+              justify-content: center; }
+          .dressingRoom .clothesArea .wardrobe .storages .storage .myItem {
+            width: 70%; }
+          .dressingRoom .clothesArea .wardrobe .storages .storage .owl-prev {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            left: 2%;
+            width: 30px;
+            height: 30px;
+            z-index: 20; }
+            .dressingRoom .clothesArea .wardrobe .storages .storage .owl-prev span {
+              opacity: 0; }
+          .dressingRoom .clothesArea .wardrobe .storages .storage .owl-next {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            right: 2%;
+            width: 30px;
+            height: 30px;
+            z-index: 20; }
+            .dressingRoom .clothesArea .wardrobe .storages .storage .owl-next span {
+              opacity: 0; }
+          .dressingRoom .clothesArea .wardrobe .storages .storage .leftBtn {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            content: "";
+            left: 2%;
+            width: 30px;
+            height: 30px; }
+            .dressingRoom .clothesArea .wardrobe .storages .storage .leftBtn::before {
+              position: absolute;
+              left: 0;
+              right: 0;
+              margin: auto;
+              border-radius: 2px;
+              top: 6px;
+              content: "";
+              width: 22px;
+              height: 4px;
+              background-color: #fff;
+              transform: rotate(-45deg); }
+            .dressingRoom .clothesArea .wardrobe .storages .storage .leftBtn::after {
+              position: absolute;
+              left: 0;
+              right: 0;
+              margin: auto;
+              border-radius: 2px;
+              bottom: 6px;
+              content: "";
+              width: 22px;
+              height: 4px;
+              background-color: #fff;
+              transform: rotate(45deg); }
+          .dressingRoom .clothesArea .wardrobe .storages .storage .rightBtn {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            content: "";
+            right: 2%;
+            width: 30px;
+            height: 30px; }
+            .dressingRoom .clothesArea .wardrobe .storages .storage .rightBtn::before {
+              position: absolute;
+              left: 0;
+              right: 0;
+              margin: auto;
+              border-radius: 2px;
+              top: 6px;
+              content: "";
+              width: 22px;
+              height: 4px;
+              background-color: #fff;
+              transform: rotate(45deg); }
+            .dressingRoom .clothesArea .wardrobe .storages .storage .rightBtn::after {
+              position: absolute;
+              left: 0;
+              right: 0;
+              margin: auto;
+              border-radius: 2px;
+              bottom: 6px;
+              content: "";
+              width: 22px;
+              height: 4px;
+              background-color: #fff;
+              transform: rotate(-45deg); }
+        .dressingRoom .clothesArea .wardrobe .storages .hats .myItem {
+          width: 50%; }
+        .dressingRoom .clothesArea .wardrobe .storages .clothes {
+          height: 35%; }
+        .dressingRoom .clothesArea .wardrobe .storages .shoes .myItem {
+          width: 90%; }
+  .dressingRoom .lightBox {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(39, 39, 39, 0.8);
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .dressingRoom .lightBox .drawingBox {
+      width: 50%;
+      padding: 2% 0 1%;
+      border: 3px solid #f6f6f6;
+      border-radius: 10px;
+      text-align: center;
+      background: #f8b853;
+      position: relative; }
+      .dressingRoom .lightBox .drawingBox #cancelBtn {
+        position: absolute;
+        top: 15px;
+        right: 25px;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: #f6f6f6;
+        cursor: pointer; }
+        .dressingRoom .lightBox .drawingBox #cancelBtn::before {
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          margin: auto;
+          content: "";
+          display: block;
+          width: 22px;
+          height: 4px;
+          background-color: #ec8a63;
+          transform: rotate(45deg); }
+        .dressingRoom .lightBox .drawingBox #cancelBtn::after {
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          margin: auto;
+          content: "";
+          display: block;
+          width: 22px;
+          height: 4px;
+          background-color: #ec8a63;
+          transform: rotate(-45deg); }
+      .dressingRoom .lightBox .drawingBox h4 {
+        font-size: 20px;
+        margin: 0;
+        padding: 0 0 3%; }
+      .dressingRoom .lightBox .drawingBox .subTitle {
+        display: inline-block;
+        margin: 1% 0;
+        padding: 5px 10px;
+        background-color: #ffd189;
+        border-radius: 10px; }
+      .dressingRoom .lightBox .drawingBox .choosingArea {
+        width: 80%;
+        margin: auto;
+        padding: 2%;
+        box-sizing: border-box;
+        border-radius: 10px;
+        background: #f6f6f6;
+        text-align: left; }
+        .dressingRoom .lightBox .drawingBox .choosingArea li {
+          display: flex;
+          justify-content: space-between;
+          align-items: center; }
+        .dressingRoom .lightBox .drawingBox .choosingArea .strokeSize ul {
+          width: 80%;
+          padding: 2% 0;
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          border-radius: 10px;
+          background-color: #ffeed4; }
+          .dressingRoom .lightBox .drawingBox .choosingArea .strokeSize ul li:nth-child(1) {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background-color: #000; }
+          .dressingRoom .lightBox .drawingBox .choosingArea .strokeSize ul li:nth-child(2) {
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            background-color: #000; }
+          .dressingRoom .lightBox .drawingBox .choosingArea .strokeSize ul li:nth-child(3) {
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            background-color: #000; }
+          .dressingRoom .lightBox .drawingBox .choosingArea .strokeSize ul li:nth-child(4) {
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            background-color: #000; }
+          .dressingRoom .lightBox .drawingBox .choosingArea .strokeSize ul li:nth-child(5) {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background-color: #000; }
+        .dressingRoom .lightBox .drawingBox .choosingArea .colorBar {
+          padding: 2% 0 0 0; }
+          .dressingRoom .lightBox .drawingBox .choosingArea .colorBar #colorPicker {
+            width: 80%;
+            display: flex;
+            justify-content: space-between;
+            border-radius: 10px;
+            overflow: hidden; }
+            .dressingRoom .lightBox .drawingBox .choosingArea .colorBar #colorPicker span {
+              flex-grow: 1;
+              width: 10px;
+              height: 28px; }
+      .dressingRoom .lightBox .drawingBox .drawingArea {
+        width: 80%;
+        margin: 5% auto 0;
+        padding: 2%;
+        box-sizing: border-box;
+        border-radius: 10px;
+        background-color: #f6f6f6;
+        text-align: left; }
+        .dressingRoom .lightBox .drawingBox .drawingArea .drawingPart {
+          text-align: center;
+          margin: 2% 0 1%;
+          padding: 2% 0;
+          background-color: #ffeed4;
+          border-radius: 15px; }
+          .dressingRoom .lightBox .drawingBox .drawingArea .drawingPart img {
+            width: 70%; }
+      .dressingRoom .lightBox .drawingBox a {
+        display: inline-block;
+        padding: 5px 10px;
+        border: 3px solid #f6f6f6;
+        border-radius: 20px;
+        color: #fff;
+        background-color: #fa7979;
+        position: relative;
+        top: -3px;
+        left: -3px;
+        box-shadow: 3px 3px #e7867e;
+        transition: 0.3s;
+        margin-top: 20px; }
+        .dressingRoom .lightBox .drawingBox a:hover {
+          top: 0;
+          left: 0;
+          box-shadow: 0 0 transparent; }
