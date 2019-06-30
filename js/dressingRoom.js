@@ -64,6 +64,70 @@ function init() {
     dots: false
   });
 
+  $(".shoes .owl-prev").click(function() {
+    const hatImgs = document.querySelectorAll(".shoes img");
+    for (let i = 0; i < hatImgs.length; i++) {
+      TweenMax.from(hatImgs[i], 2, {
+        skewX: -20,
+        ease: Elastic.easeOut.config(1, 0.2),
+        transformOrigin: "bottom"
+      });
+    }
+  });
+
+  $(".hats .owl-next").click(function() {
+    const hatImgs = document.querySelectorAll(".hats img");
+    for (let i = 0; i < hatImgs.length; i++) {
+      TweenMax.from(hatImgs[i], 2, {
+        skewX: 20,
+        ease: Elastic.easeOut.config(1, 0.2),
+        transformOrigin: "bottom"
+      });
+    }
+  });
+  $(".hats .owl-prev").click(function() {
+    const hatImgs = document.querySelectorAll(".hats img");
+    for (let i = 0; i < hatImgs.length; i++) {
+      TweenMax.from(hatImgs[i], 2, {
+        skewX: -20,
+        ease: Elastic.easeOut.config(1, 0.2),
+        transformOrigin: "bottom"
+      });
+    }
+  });
+
+  $(".clothes .owl-next").click(function() {
+    const hatImgs = document.querySelectorAll(".clothes img");
+    for (let i = 0; i < hatImgs.length; i++) {
+      TweenMax.from(hatImgs[i], 2, {
+        skewX: 20,
+        ease: Elastic.easeOut.config(1, 0.2),
+        transformOrigin: "bottom"
+      });
+    }
+  });
+  $(".clothes .owl-prev").click(function() {
+    const hatImgs = document.querySelectorAll(".clothes img");
+    for (let i = 0; i < hatImgs.length; i++) {
+      TweenMax.from(hatImgs[i], 2, {
+        skewX: -20,
+        ease: Elastic.easeOut.config(1, 0.2),
+        transformOrigin: "bottom"
+      });
+    }
+  });
+
+  $(".shoes .owl-next").click(function() {
+    const hatImgs = document.querySelectorAll(".shoes img");
+    for (let i = 0; i < hatImgs.length; i++) {
+      TweenMax.from(hatImgs[i], 2, {
+        skewX: 20,
+        ease: Elastic.easeOut.config(1, 0.2),
+        transformOrigin: "bottom"
+      });
+    }
+  });
+
   // 換服裝
   // 先換帽帽
   $(".changeHat img").click(function() {
