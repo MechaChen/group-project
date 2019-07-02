@@ -388,3 +388,23 @@ a {
           top: 0;
           left: 0;
           box-shadow: 0 0 transparent; }
+
+@media screen and (max-width: 668px) {
+  .dressingRoom .lightBox .drawingBox {
+    width: 90%; }
+    .dressingRoom .lightBox .drawingBox .drawingPart {
+      display: flex; }
+      .dressingRoom .lightBox .drawingBox .drawingPart .choosingArea {
+        width: 45%; }
+      .dressingRoom .lightBox .drawingBox .drawingPart .drawingArea {
+        width: 45%;
+        margin: 0 auto; }
+  .dressingRoom .paintArea {
+    padding-top: 5%; }
+    .dressingRoom .paintArea .customize .paintShirt .startCreate {
+      width: 70%;
+      padding: 10% 15%; }
+  .dressingRoom .clothesArea {
+    padding-top: 1%; }
+  .dressingRoom h3 {
+    margin: 1% 0 3%; } }

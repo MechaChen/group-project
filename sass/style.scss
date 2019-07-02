@@ -324,3 +324,40 @@ a {
 * {
   // outline: 1px solid #f00;
 }
+
+@media screen and (max-width: 668px) {
+  .dressingRoom {
+    .lightBox {
+      .drawingBox {
+        width: 90%;
+        .drawingPart {
+          display: flex;
+          .choosingArea {
+            width: 45%;
+          }
+          .drawingArea {
+            width: 45%;
+            margin: 0 auto;
+          }
+        }
+      }
+    }
+    .paintArea {
+      padding-top: 5%;
+      .customize {
+        .paintShirt {
+          .startCreate {
+            width: 70%;
+            padding: 10% 15%;
+          }
+        }
+      }
+    }
+    .clothesArea {
+      padding-top: 1%;
+    }
+    h3 {
+      margin: 1% 0 3%;
+    }
+  }
+}
