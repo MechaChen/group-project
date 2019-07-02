@@ -389,6 +389,10 @@ a {
           left: 0;
           box-shadow: 0 0 transparent; }
 
+@media screen and (min-width: 1200px) {
+  .dressingRoom .lightBox .drawingBox {
+    width: 40%; } }
+
 @media screen and (max-width: 668px) {
   .dressingRoom .lightBox .drawingBox {
     width: 90%; }

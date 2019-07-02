@@ -325,6 +325,16 @@ a {
   // outline: 1px solid #f00;
 }
 
+@media screen and (min-width: 1200px) {
+  .dressingRoom {
+    .lightBox {
+      .drawingBox {
+        width: 40%;
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 668px) {
   .dressingRoom {
     .lightBox {
